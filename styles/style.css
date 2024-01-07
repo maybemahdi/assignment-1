@@ -16,7 +16,6 @@ button {
 }
 
 .header-banner {
-    /* width: 90%; */
     width: 1320px;
     height: 600px;
     margin: 50px auto 0 auto;
@@ -37,12 +36,6 @@ button {
     align-items: center;
     flex-direction: column;
 }
-
-/* .ov h2,
-h1 {
-    text-align: center;
-    margin: 0 auto;
-} */
 
 .ov h2 {
     color: #FFF;
@@ -69,11 +62,6 @@ h1 {
     width: 802.9px;
     margin: 120px auto;
 }
-
-/* .dis-div {
-    margin: 120px auto;
-} */
-
 .dis-div h2 {
     color: #F00;
     text-align: center;
@@ -128,7 +116,6 @@ h1 {
 }
 
 .content {
-    /* margin: 120px; */
     text-align: left;
 }
 
@@ -538,14 +525,14 @@ input[type=submit] {
 footer {
     background: #070211;
     height: 609px;
-    color: #FFF;
 }
 
 .footer-area {
     width: 1320px;
     margin: 120px auto;
-    padding: 120px 0;
+    padding: 115px 0;
 }
+
 
 .contact-text {
     display: flex;
@@ -589,7 +576,6 @@ hr {
 
 .social-icon {
     margin: 48px 0;
-    x
 }
 
 .social-icon a {
