@@ -307,9 +307,11 @@ h1 {
     line-height: 32px;
     margin-bottom: 43px;
 }
-.hd{
+
+.hd {
     margin: 120px auto 0 auto;
 }
+
 .head-text {
     display: flex;
     justify-content: center;
@@ -358,32 +360,177 @@ h1 {
     line-height: 32px;
     margin-bottom: 68px;
 }
-.dis-sell{
+
+.dis-sell {
     width: 1320px;
     margin: 0 auto 120px auto;
 }
-.right-img{
+
+.right-img {
     display: flex;
     justify-content: end;
     position: relative;
 }
-.right-img .in{
+
+.right-img .in {
     position: absolute;
     top: 120px;
     right: 25%;
 }
-.rightsided{
+
+.rightsided {
     display: block;
     text-align: right;
 }
-.bg{
+
+.bg {
     background-image: url('../resources/Rectangle\ 2.png');
     height: 229px;
     position: relative;
 }
-.bg img{
+
+.bg img {
     position: absolute;
     top: -300px;
     left: 70px;
 }
 
+/* Portfolio sction started */
+
+.portfolio {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.title-text h2 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.title-text h3 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.title-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.gallery img {
+    width: 31%;
+    height: 450px;
+    border-radius: 16px;
+    transition: .3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+.gap {
+    margin-right: 2.333333333333333%;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1320px;
+    height: 616px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscriber {
+    text-align: center;
+}
+
+.subscriber img {
+    margin-bottom: 40px;
+    width: 150px;
+    height: 150px;
+}
+
+.subscriber h3 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.subscriber p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+input[type=email] {
+    width: 448px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    padding: 25px 30px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 24px 56px;
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
