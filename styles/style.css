@@ -3,17 +3,23 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    border: 0;
 }
 
 body {
     width: 100%;
+    background-color: #fff;
+}
+
+button {
+    cursor: pointer;
 }
 
 .header-banner {
     /* width: 90%; */
     width: 1320px;
     height: 600px;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
     background-image: url('/resources/Banner Image.png');
     background-repeat: no-repeat;
 }
@@ -24,12 +30,14 @@ body {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
-.ov{
+
+.ov {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 /* .ov h2,
 h1 {
     text-align: center;
@@ -56,3 +64,326 @@ h1 {
     font-weight: 900;
     line-height: 95px;
 }
+
+.dis {
+    width: 802.9px;
+    margin: 120px auto;
+}
+
+/* .dis-div {
+    margin: 120px auto;
+} */
+
+.dis-div h2 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.dis-div h3 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.dis-div h4 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.dis-div img {
+    text-align: center;
+}
+
+.welcome {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+}
+
+.ov2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    padding: 120px;
+}
+
+.content {
+    /* margin: 120px; */
+    text-align: left;
+}
+
+.content h2 {
+    width: 642px;
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.content p {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.content button {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #00000000;
+    padding-left: 32px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-repeat: no-repeat;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.color-text {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.info-content p {
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.info-content button {
+    margin-top: 34px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.offer {
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    flex-basis: 33%;
+}
+
+.img {
+    flex-basis: 34%;
+}
+
+.greet {
+    flex-basis: 33%;
+}
+
+.text h2 {
+    color: #F00;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text h3 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.text p {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.img {
+    margin-left: 50px;
+    padding: 25px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.greet {
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.greet h2 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.greet h3 {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+.hd{
+    margin: 120px auto 0 auto;
+}
+.head-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head-text h3 {
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.color-text2 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.head-text h4 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.head-text p {
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 68px;
+}
+.dis-sell{
+    width: 1320px;
+    margin: 0 auto 120px auto;
+}
+.right-img{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.right-img .in{
+    position: absolute;
+    top: 120px;
+    right: 25%;
+}
+.rightsided{
+    display: block;
+    text-align: right;
+}
+.bg{
+    background-image: url('../resources/Rectangle\ 2.png');
+    height: 229px;
+    position: relative;
+}
+.bg img{
+    position: absolute;
+    top: -300px;
+    left: 70px;
+}
+
