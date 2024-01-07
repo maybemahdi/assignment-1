@@ -534,3 +534,90 @@ input[type=submit] {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 }
+
+footer {
+    background: #070211;
+    height: 609px;
+    color: #FFF;
+}
+
+.footer-area {
+    width: 1320px;
+    margin: 120px auto;
+    padding: 120px 0;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+.location h5 {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.phone p {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+hr {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    margin: 48px 0;
+    x
+}
+
+.social-icon a {
+    margin-right: 15px;
+}
+
+.end-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.copy h5 {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.unsubscribe button {
+    background: #00000000;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
