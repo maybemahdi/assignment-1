@@ -447,6 +447,7 @@ button {
 .gallery img:hover {
     transform: scale(.9);
     cursor: pointer;
+    box-shadow: 0 0 10px #ddd;
 }
 
 .gap {
@@ -528,6 +529,7 @@ input[type=submit] {
     height: 72px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+    margin-left: -5px;
 }
 
 footer {
