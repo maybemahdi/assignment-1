@@ -14,7 +14,7 @@ body {
 button {
     cursor: pointer;
 }
-
+  /* Header Started */
 .header-banner {
     width: 1320px;
     height: 600px;
@@ -447,7 +447,7 @@ button {
 .gallery img:hover {
     transform: scale(.9);
     cursor: pointer;
-    box-shadow: 0 0 10px #ddd;
+    box-shadow: 0 0 10px #424242;
 }
 
 .gap {
